@@ -1,15 +1,15 @@
-import Counter from "../Counter/Counter";
 
-export default function Hero(props){
+
+export default function Hero({title, description, button1, button2}){
   return(
     <div className="hero">
       <section>
-       <h1>{props.title}</h1>
+       <h1>{title}</h1>
 
-       <p>{props.description}</p>
+       <p>{description}</p>
 
-       <button>{props.button1}</button>
-       <button>{props.button2}</button>
+       <button>{button1}</button>
+       <button>{button2}</button>
 
       </section>  
     </div>
