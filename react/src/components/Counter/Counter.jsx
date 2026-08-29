@@ -9,5 +9,6 @@ export default function Counter() {
       <p>Counter: {counter}</p>
       <button onClick={() => setCounter(counter + 1)}>Increment</button>
     </div>
+    
   );
 }
