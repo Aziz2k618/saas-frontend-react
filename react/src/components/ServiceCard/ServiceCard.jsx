@@ -6,3 +6,11 @@ export default function ServiceCard({ title, description }) {
     </div>
   );
 }
+
+export function Card({ children }) {
+  return (
+    <div className="card">
+      {children}
+    </div>
+  );
+}
